@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Quiz | Phishing Awareness Training</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📝 Final Quiz</h1>
+    <p>Test your phishing awareness knowledge.</p>
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="phishing.html">What is Phishing?</a>
+    <a href="fake-emails.html">Fake Emails</a>
+    <a href="fake-websites.html">Fake Websites</a>
+    <a href="social-engineering.html">Social Engineering</a>
+    <a href="safety-tips.html">Safety Tips</a>
+    <a href="quiz.html" class="active">Quiz</a>
+</nav>
+
+<main class="content">
+
+<div class="card">
+
+<h2>👤 Learner Information</h2>
+
+<p>Please enter your name before starting the quiz.</p>
+
+<input
+type="text"
+id="studentName"
+placeholder="Enter your full name"
+style="width:100%;padding:12px;font-size:16px;margin-top:15px;">
+
+</div>
+
+<form id="quizForm">
+
+<div class="card">
+<h2>1. What is phishing?</h2>
+
+<label><input type="radio" name="q1" value="A"> A cyberattack that tricks people into revealing sensitive information.</label><br><br>
+<label><input type="radio" name="q1" value="B"> A type of antivirus software.</label><br><br>
+<label><input type="radio" name="q1" value="C"> A secure web browser.</label>
+
+</div>
+
+<div class="card">
+<h2>2. Which email is most suspicious?</h2>
+
+<label><input type="radio" name="q2" value="A"> support@paypal.com</label><br><br>
+<label><input type="radio" name="q2" value="B"> paypal-security-login@gmail.com</label><br><br>
+<label><input type="radio" name="q2" value="C"> help@microsoft.com</label>
+
+</div>
+
+<div class="card">
+<h2>3. Which URL is legitimate?</h2>
+
+<label><input type="radio" name="q3" value="A"> https://paypal-login.xyz</label><br><br>
+<label><input type="radio" name="q3" value="B"> https://paypal.com</label><br><br>
+<label><input type="radio" name="q3" value="C"> https://paypal-secure.net</label>
+
+</div>
+
+<div class="card">
+<h2>4. What should you do if an email asks for your password?</h2>
+
+<label><input type="radio" name="q4" value="A"> Reply with your password.</label><br><br>
+<label><input type="radio" name="q4" value="B"> Ignore it or verify through official channels.</label><br><br>
+<label><input type="radio" name="q4" value="C"> Forward it to friends.</label>
+
+</div>
+
+<div class="card">
+<h2>5. What does OTP stand for?</h2>
+
+<label><input type="radio" name="q5" value="A"> One-Time Password</label><br><br>
+<label><input type="radio" name="q5" value="B"> Online Transfer Password</label><br><br>
+<label><input type="radio" name="q5" value="C"> Official Transaction Passcode</label>
+
+</div>
+
+<div class="card">
+<h2>6. Which emotion do attackers commonly exploit?</h2>
+
+<label><input type="radio" name="q6" value="A"> Urgency</label><br><br>
+<label><input type="radio" name="q6" value="B"> Fear</label><br><br>
+<label><input type="radio" name="q6" value="C"> Both A and B</label>
+
+</div>
+
+<div class="card">
+<h2>7. What is the safest practice?</h2>
+
+<label><input type="radio" name="q7" value="A"> Reuse the same password everywhere.</label><br><br>
+<label><input type="radio" name="q7" value="B"> Enable Two-Factor Authentication.</label><br><br>
+<label><input type="radio" name="q7" value="C"> Share passwords with trusted friends.</label>
+
+</div>
+
+<div class="card">
+<h2>8. Banks will ask for your OTP over the phone.</h2>
+
+<label><input type="radio" name="q8" value="A"> True</label><br><br>
+<label><input type="radio" name="q8" value="B"> False</label>
+
+</div>
+
+<div class="card">
+<h2>9. What should you do before entering your password on a website?</h2>
+
+<label><input type="radio" name="q9" value="A"> Verify the website URL.</label><br><br>
+<label><input type="radio" name="q9" value="B"> Trust any website with a logo.</label><br><br>
+<label><input type="radio" name="q9" value="C"> Click every popup.</label>
+
+</div>
+
+<div class="card">
+<h2>10. Which is NOT a type of phishing?</h2>
+
+<label><input type="radio" name="q10" value="A"> Smishing</label><br><br>
+<label><input type="radio" name="q10" value="B"> Vishing</label><br><br>
+<label><input type="radio" name="q10" value="C"> Coding</label>
+
+</div>
+
+<div style="text-align:center;">
+<button class="btn" type="button" onclick="gradeQuiz()">Submit Quiz</button>
+</div>
+
+</form>
+
+<div id="quizResult" class="card" style="display:none;"></div>
+
+</main>
+
+<footer>
+<p>CodeAlpha Cyber Security Internship Project</p>
+</footer>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
