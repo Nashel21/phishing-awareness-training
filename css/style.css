@@ -211,42 +211,60 @@ blockquote{
 
 .certificate{
 
-max-width:900px;
+    max-width:900px;
 
-margin:60px auto;
+    margin:60px auto;
 
-background:white;
+    background:white;
 
-padding:50px;
+    padding:60px;
 
-text-align:center;
+    text-align:center;
 
-border:8px solid #003366;
+    border:10px solid #003366;
 
-border-radius:15px;
+    border-radius:12px;
 
-box-shadow:0 0 20px rgba(0,0,0,.2);
+    box-shadow:0 0 20px rgba(0,0,0,.15);
 
 }
 
 .certificate h1{
 
-color:#003366;
+    color:#c89b00;
 
-margin-bottom:20px;
+    font-size:42px;
+
+    margin-bottom:25px;
 
 }
 
 .certificate h2{
 
-margin-bottom:30px;
+    font-size:42px;
+
+    color:#003366;
+
+    margin:35px 0;
+
+}
+
+.certificate h3{
+
+    margin:20px 0;
 
 }
 
 .certificate p{
 
-font-size:20px;
+    font-size:18px;
 
-line-height:2;
+    line-height:1.8;
+
+}
+
+.certificate hr{
+
+    margin:40px 0;
 
 }
